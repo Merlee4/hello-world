@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif,Verdana ;
+    background-color:rgba(27, 77, 151, 0.205);;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 768px;
+
+}
+
+nav {
+    background-color: rgb(27, 77, 151);;
+}
+
+nav .container{
+    padding: 25px;
+}
+
+.appname{
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(24, 24, 24);
+    
+}
+
+.menuButton{
+    margin: 10px;
+    margin-top: -15px;
+    margin-left: 7px;
+}
+
+.search{
+    margin: 10px;
+    margin-top: -10px;
+    float: right;
+    margin-right: 8px;
+}
+
+.headerHolder{
+    display: flex;
+    flex-direction: column;;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.top{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 2px 0px;
+}
+ 
+.headerHolder input{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(218, 218, 218);
+    flex: 1;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type=button]{
+    background-color: rgb(27, 77, 151);
+    color:white;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+footer{
+    background-color:rgb(247, 247, 247);
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow:rgb(27, 77, 151) 0px 0px 2px 0px;
+}
+
+.totalSpent{
+    float: right;
+    padding: 10px;
+    display: flex;
+}
+
+.amount{
+    margin-left: 10px;
+}
+
+.sign{
+    margin-left: 10px;
+}
+
+.menuButton button{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    float: left;
+    border-radius: 3px;
+    border: none;
+}
+
+.search input{
+    padding: 7px 50px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+.totalSpent h2{
+    color:  rgb(24, 24, 24);
+    font-size: 14pt;
+}
+
+.itemlabel{
+    margin-top: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
+}   
+
+h1{
+    color: rgb(36, 36, 36);
+}
+
+main{
+    margin-bottom: 60px;
+}
+
+main div{
+    display: flex;
+    margin: 10px 0;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+main div button{
+    background-color: rgb(9, 33, 78);
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900;
+}
+main p{
+    flex: 2;
+    margin: 0 10px;
+    font-weight: 400;
+}
